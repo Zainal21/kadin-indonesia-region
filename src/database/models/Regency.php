@@ -9,7 +9,7 @@
 
 namespace App\Models;
 
-use Zainal21\IndoRegion\Traits\RegencyTrait;
+use Zainal21\KadinIndoRegion\Traits\RegencyTrait;
 use Illuminate\Database\Eloquent\Model;
 
 /**

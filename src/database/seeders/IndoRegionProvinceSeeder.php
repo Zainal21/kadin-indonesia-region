@@ -10,7 +10,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Zainal21\IndoRegion\RawDataGetter;
+use Zainal21\KadinIndoRegion\RawDataGetter;
 use Illuminate\Support\Facades\DB;
 
 class IndoRegionProvinceSeeder extends Seeder

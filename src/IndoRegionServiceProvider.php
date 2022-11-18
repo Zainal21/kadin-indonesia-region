@@ -7,10 +7,10 @@
  *
  */
 
-namespace Zainal21\IndoRegion;
+namespace Zainal21\KadinIndoRegion;
 
 use Illuminate\Support\ServiceProvider;
-use Zainal21\IndoRegion\IndoRegionPublishCommand;
+use Zainal21\KadinIndoRegion\IndoRegionPublishCommand;
 
 /**
  * IndoRegion Service Provider

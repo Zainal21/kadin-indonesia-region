@@ -6,7 +6,7 @@
  * Time: 0:47
  */
 
-namespace Zainal21\IndoRegion\Traits;
+namespace Zainal21\KadinIndoRegion\Traits;
 
 
 use App\Models\District;

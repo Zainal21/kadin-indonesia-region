@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Zainal21\IndoRegion\RawDataGetter as RawData;
+use Zainal21\KadinIndoRegion\RawDataGetter as RawData;
 
 /**
  * Data Test

@@ -7,7 +7,7 @@
  *
  */
 
-namespace Zainal21\IndoRegion;
+namespace Zainal21\KadinIndoRegion;
 
 use App\Models\Province;
 use App\Models\Regency;

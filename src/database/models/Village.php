@@ -9,7 +9,7 @@
 
 namespace App\Models;
 
-use Zainal21\IndoRegion\Traits\VillageTrait;
+use Zainal21\KadinIndoRegion\Traits\VillageTrait;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\District;
 

@@ -6,7 +6,7 @@
  * Time: 23:31
  */
 
-namespace Zainal21\IndoRegion\Traits;
+namespace Zainal21\KadinIndoRegion\Traits;
 
 
 trait VillageTrait

@@ -6,7 +6,7 @@
  *
  */
 
-namespace Zainal21\IndoRegion;
+namespace Zainal21\KadinIndoRegion;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
