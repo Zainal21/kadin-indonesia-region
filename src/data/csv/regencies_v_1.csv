@@ -1,4 +1,4 @@
-district_id,province_id,name,kadin_code
+id,province_id,name,kadin_code
 1101,11,KABUPATEN SIMEULUE,10111
 1102,11,KABUPATEN ACEH SINGKIL,10112
 1103,11,KABUPATEN ACEH SELATAN,10108
