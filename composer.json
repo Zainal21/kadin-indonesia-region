@@ -25,7 +25,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Zainal21\\IndoRegionServiceProvider"
+        "Zainal21\\IndoRegion\\IndoRegionServiceProvider"
       ],
       "aliases": {}
     }
