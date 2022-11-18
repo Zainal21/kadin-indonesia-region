@@ -1,0 +1,35 @@
+{
+  "name": "muhamadzain/indoregion",
+  "description": "kadin indonesia region data source",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zainal21"
+    }
+  ],
+  "require": {
+    "parsecsv/php-parsecsv": "^1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zainal21\\KadinIndoRegion\\": "src/"
+    },
+    "files": [
+      "src/RawDataGetter.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Zainal21\\KadinIndoRegion\\KadinIndoRegionServiceProvider"
+      ],
+      "aliases": {}
+    }
+  },
+  "homepage": "https://muhamadzain-dev.vercel.app/",
+  "prefer-stable": true
+}
