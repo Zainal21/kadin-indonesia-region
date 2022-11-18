@@ -46,14 +46,4 @@ class District extends Model
     {
         return $this->belongsTo(Regency::class);
     }
-
-    /**
-     * District has many villages.
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
-    public function villages()
-    {
-        return $this->hasMany(Village::class);
-    }
 }
