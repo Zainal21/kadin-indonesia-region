@@ -21,6 +21,7 @@ class CreateDistrictsTables extends Migration
         Schema::create('districts', function(Blueprint $table){
             $table->char('id', 7)->index();
             $table->char('regency_id', 4);
+            $table->char('province_id', 4);
             $table->string('name', 50);
             $table->foreign('regency_id')
                 ->references('id')
@@ -28,10 +29,8 @@ class CreateDistrictsTables extends Migration
                 ->onUpdate('cascade')->onDelete('restrict');
             $table->foreign('province_id')
                 ->references('id')
-                ->on('provincies')
+                ->on('provinces')
                 ->onUpdate('cascade')->onDelete('restrict');
-            $table->char('kadin_code', 16);
-
         });
     }
 
