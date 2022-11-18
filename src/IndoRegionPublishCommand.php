@@ -2,8 +2,6 @@
 /*
  * This file is part of the IndoRegion package.
  *
- * (c) Ibnul Mutaki <cacing69 | cacingworm@gmail.com>
- *
  */
 
 namespace Zainal21\KadinIndoRegion;
