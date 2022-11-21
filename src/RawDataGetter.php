@@ -42,7 +42,7 @@ class RawDataGetter
      */
     public static function getRegencies()
     {
-        $result = self::getCsvData(self::$path.'/regencies_v_1.csv');
+        $result = self::getCsvData(self::$path.'/regencies_v1.csv');
 
         return $result;
     }
