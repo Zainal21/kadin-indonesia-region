@@ -1,7 +1,6 @@
 <?php
 /*
- * This file is part of the IndoRegion package.
- *
+ * This file is part of the kadinIndoregion package.
  */
 
 namespace Zainal21\KadinIndoRegion;

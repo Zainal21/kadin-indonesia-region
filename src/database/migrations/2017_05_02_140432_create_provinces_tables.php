@@ -1,10 +1,7 @@
 <?php
 
 /*
- * This file is part of the IndoRegion package.
- *
- * 
- *
+ * This file is part of the kadinIndoregion package.
  */
 
 use Illuminate\Support\Facades\Schema;
