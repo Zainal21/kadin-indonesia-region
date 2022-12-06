@@ -17,10 +17,10 @@ or add it manually in your composer.json file.
 Before you start to code, run this command to install all of the required packages. Make sure you have `composer` installed in your computer
 
 ```bash
-composer install
+composer require muhamadzain/indoregion
 ```
 
-Publish Package
+Publish Package (if your'e using laravel framework)
 
 ```bash
 php artisan Kadinindoregion:publish
