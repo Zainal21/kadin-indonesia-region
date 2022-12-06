@@ -34,10 +34,14 @@ php artisan migrate
 
 ### Import all Seeder
 
+```bash
 php artisan db:seed --class=IndoRegionSeeder # Import data Provinsi/Province, Kabupaten/Regency, Kecamatan/District
+```
 
 ### You can run seeder one by one
 
+```bash
 php artisan db:seed --class=IndoRegionProvinceSeeder # Import data province
 php artisan db:seed --class=IndoRegionRegencySeeder # Import data kota/regency
 php artisan db:seed --class=IndoRegionDistrictSeeder # Import data kecamatan/district
+```
