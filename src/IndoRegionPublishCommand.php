@@ -1,8 +1,8 @@
 <?php
 /*
- * This file is part of the kadinIndoregion package.
-* OXY Creative | (c) Muhamad Zainal Arifin <Zainal21 | muhammad.arifin@djelas.id> 
- */
+* This file is part of the kadinIndoregion package.
+* (c) Muhamad Zainal Arifin <Zainal21 | muhammad.arifin@djelas.id> 
+*/
 
 namespace Zainal21\KadinIndoRegion;
 

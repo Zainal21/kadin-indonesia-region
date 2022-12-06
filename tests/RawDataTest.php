@@ -3,9 +3,10 @@
 use PHPUnit\Framework\TestCase;
 use Zainal21\KadinIndoRegion\RawDataGetter as RawData;
 
-/**
- * Data Test
- */
+/*
+* Data Test
+* (c) Muhamad Zainal Arifin <Zainal21 | muhammad.arifin@djelas.id> 
+*/
 class RawDataTest extends TestCase
 {
     /**
