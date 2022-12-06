@@ -1,8 +1,8 @@
-# KADIN REGION PACKAGES
+## KADIN REGION PACKAGES
 
 This library is KADIN Official Region Libary Package written with PHP.
 
-## Installation
+### Installation
 
 Install `indoregion` with composer by following command:
 
@@ -32,11 +32,11 @@ Run Migrations and Seeder
 php artisan migrate
 ```
 
-# Import all Seeder
+### Import all Seeder
 
 php artisan db:seed --class=IndoRegionSeeder # Import data Provinsi/Province, Kabupaten/Regency, Kecamatan/District
 
-# You can run seeder one by one
+### You can run seeder one by one
 
 php artisan db:seed --class=IndoRegionProvinceSeeder # Import data province
 php artisan db:seed --class=IndoRegionRegencySeeder # Import data kota/regency
