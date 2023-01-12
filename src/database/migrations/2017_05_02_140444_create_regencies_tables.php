@@ -27,6 +27,8 @@ class CreateRegenciesTables extends Migration
                 ->on('provinces')
                 ->onUpdate('cascade')->onDelete('restrict');
             $table->char('kadin_code', 16);
+            $table->string('board_of_director')->nullable();
+            $table->string('signature')->nullable();
         });
     }
 
