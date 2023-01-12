@@ -22,6 +22,8 @@ class CreateProvincesTables extends Migration
             $table->char('id', 100)->primary();
             $table->string('name');
             $table->char('kadin_code', 16);
+            $table->string('board_of_director')->nullable();
+            $table->string('signature')->nullable();
         });
     }
 
